@@ -1,2 +1,2 @@
 # Team 1
-#### Sophia, Getrude, Marcell, Rachel, Andrea
+#### Sophia, Getrude, Marcell, Richael, Andrea
