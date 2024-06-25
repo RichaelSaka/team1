@@ -100,3 +100,7 @@
       opacity: 1;
     }
   }
+  
+  #user-info {
+    margin-top: 20px;
+}
