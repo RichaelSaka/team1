@@ -32,6 +32,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    logoutButton.addEventListener('click', () => {
+        localStorage.removeItem('username');
+        loginForm.style.display = 'block';
+        userInfo.style.display = 'none';
+    });
+
     checkLogin();
 });
 //redirect to card page after sucessful login
@@ -47,5 +53,11 @@ loginForm.addEventListener('submit', (event) => {
     } else {
         alert('Please enter both username and password.');
     }
+});
+
+//editing logout page
+document.addEventListener('DOMContentLoaded', () => {
+    const paragraph = document.querySelector('.special-paragraph');
+    paragraph.classList.add('special-paragraph');
 });
 

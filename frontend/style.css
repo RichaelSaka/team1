@@ -104,6 +104,7 @@
   #user-info {
     margin-top: 20px;
 }
-#user-info {
-  margin-top: 20px;
+.special-paragraph {
+  font-weight: bold;
+  text-transform: capitalize;
 }
