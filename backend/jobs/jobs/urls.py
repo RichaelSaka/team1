@@ -21,6 +21,6 @@ from .server import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('jobs', views.givejobs)
+    path('jobs', views.alljobs)
 ]
 
