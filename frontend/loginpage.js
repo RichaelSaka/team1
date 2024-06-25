@@ -32,12 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    logoutButton.addEventListener('click', () => {
-        localStorage.removeItem('username');
-        loginForm.style.display = 'block';
-        userInfo.style.display = 'none';
-    });
-
     checkLogin();
 });
 //redirect to card page after sucessful login
